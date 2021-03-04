@@ -1,0 +1,29 @@
+These are some exercises using Python 3
+The main objective is learning about strings.
+In order to run this program from the command line:
+-We will need python installed (version 3),
+-Change Directory to where the file is located,
+-write: "python" + space + name of the file + ".py" (.py extension)
+eg: python repeat.py
+
+PROGRAM DESCRIPTIONS:
+
+repeat.py
+store an input as string
+print the input
+
+keyboardControl.py
+It imports a library that automates the writing process using the keyboard
+It returns the string we previously wrote on our program 
+
+carlsJungGame.py
+I created this to have some practice using:
+-inputs
+-string concatenation
+-string formatting using placeholders
+The code is awful and needs to be refractored
+however it is functional.
+I will use this in the future as a web app,
+the main objectives will be:
+Dry code
+User Interface
