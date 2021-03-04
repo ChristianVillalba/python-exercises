@@ -1,0 +1,55 @@
+"""This game was designed by Carl Jung and I tried to adapt it to Python, in this game the user will give us imputs and the outuput is the result of a Self-Analisis"""
+"""I am not a big fan of psychoanalysis but I found this pretty fun""" 
+
+#this will print the title 
+print("\n\nTHE SELF-ANALISIS GAME\n\n")
+
+#First important input: color & description of color
+print("First, think a color, any color and write it here and press ENTER:")
+myColor = str(input()) 
+print("Next, think of THREE WORDS that describe that color.\nObviously, describing a color is kind of hard.")
+print("Think of words that sort of personify the color.")
+print("Write each one of these words and press ENTER:")
+myColorDes1 = str(input())
+myColorDes2 = str(input())
+myColorDes3 = str(input())
+print("")
+#Second importat output: animal and description
+print("Now, think of an animal. The first animal that comes to mind,\nwrite it down and press ENTER:")
+myAnimal = str(input())
+print("Think of three words that describe that animal.")
+print("Write each one of these words and press ENTER:")
+myAnimalDes1 = str(input())
+myAnimalDes2 = str(input())
+myAnimalDes3 = str(input())
+print("")
+#Third important output: body of water and description
+print("And now, think of a specific body of water (one with a name.)\nWrite that down and press ENTER:")
+myWater = str(input())
+print("Now describe it with three words")
+print("Write each one of these words and press ENTER:")
+myWaterDes1 = str(input())
+myWaterDes2 = str(input())
+myWaterDes3 = str(input())
+print("")
+#The fourth and last output: the white room and description
+print("Finally, picture yourself in an empty white room.\nAnd write down three words that describe what you feel in that room.")
+print("Write each one of these words and press ENTER:")
+roomDes1 = str(input())
+roomDes2 = str(input())
+roomDes3 = str(input())
+print("")
+print("Well done, now lets see how to interpret the results:")
+print("Each question was a conscious way to access the subconscious.\nA color. An animal. A body of water. An all-white room.")
+print("\nThe color (%s) is how you see yourself..." %(myColor))
+print("...you described yourself as %s, %s and %s."%(myColorDes1, myColorDes2, myColorDes3))
+print("\nThe animal (%s) is how you perceive other people..." %(myAnimal))
+print("...you perceive people as %s, %s and %s" %(myAnimalDes1, myAnimalDes2, myAnimalDes3))
+print("\nThe body of water (%s) represents your sex life..." %(myWater))
+print("...%s, %s and %s" %(myWaterDes1, myWaterDes2, myAnimalDes3))
+print("\nThe all-white room represents death...")
+print("...for you will be %s, %s and %s" %(roomDes1, roomDes2, roomDes3))	
+print("\n\n")
+print("Carl Jung called this his shadow work.He said we never see others.") 
+print("Instead we see only aspects of ourselves that fall over them.\nShadows. Projections. Our associations.")	
+
