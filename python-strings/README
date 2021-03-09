@@ -19,6 +19,7 @@ It imports a library that automates the writing process using the keyboard
 It returns the string we previously wrote on our program 
 
 carlsJungGame.py
+This was my first personal project.
 I created this to have some practice using:
 -inputs
 -string concatenation
