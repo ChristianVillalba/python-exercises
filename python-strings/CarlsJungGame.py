@@ -1,5 +1,5 @@
 """This game was designed by Carl Jung and I tried to adapt it to Python, in this game the user will give us imputs and the outuput is the result of a Self-Analisis"""
-"""I am not a big fan of psychoanalysis but I found this pretty fun""" 
+"""I am not a big fan of psychoanalysis but I found this pretty funny""" 
 
 #this will print the title 
 print("\n\nTHE SELF-ANALISIS GAME\n\n")
